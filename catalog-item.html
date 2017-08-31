@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
       <header class="main-header">
         <nav class="main-navigation">
           <a class="main-header-logo" href="index.html">
@@ -33,6 +33,7 @@
             <li><a href="#">Средства по уходу</a></li>
             <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
         </ul>
+        <div class="catalog-columns">
         <section class="product-photos">
           <h2 class="visually-hidden">Изображения товара</h2>
             <p class="product-photo-full">
@@ -46,8 +47,10 @@
         </section>
         <section class="product-info">
           <h2 class="visually-hidden">Описание товара</h2>
+          <div class="product-description">
             <span class="product-availability">Есть в наличии</span>
             <span class="product-article">Артикул: dexter-ae</span>
+          </div>
         <p class="product-text">Travel Kit – необходимый аксессуар во время любого путешествия.
            В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха:
            средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
@@ -65,8 +68,10 @@
           <li>Удобная кожаная косметичка</li>
         </ul>
       </section>
-      </main>
+      </div>
+    </main>
       <footer class="main-footer">
+        <div class="container">
         <address class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -84,30 +89,7 @@
         <p class="footer-copyright">
           <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
         </p>
+        </div>
       </footer>
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
-      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-        <p>
-          <label class="visually-hidden" for="user-login">Логин</label>
-          <input id="user-login" class="login-icon-user" type="text" name="login" placeholder="Логин">
-        </p>
-        <p>
-          <label class="visually-hidden" for="user-password">Пароль</label>
-          <input id="user-password" class="login-icon-password" type="password" name="password" placeholder="Пароль">
-        </p>
-        <p class="login-password-info">
-          <label class="login-checkbox">
-          <input type="checkbox" name="remember" class="visually-hidden">
-          <span class="checkbox-indicator"></span>
-          Запомните меня
-        </label>
-          <a class="restore" href="#">Я забыл пароль!</a>
-        </p>
-        <button class="button" type="submit">Войти</button>
-      </form>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
     </body>
   </html>
